@@ -9,11 +9,11 @@ angular.module('scanner.services', [])
             all: function() {
 
                 return [
-                    {
-                        name : 'CT',
-                        host : '192.168.0.1',
-                        port : '8903'
-                    }
+                    //{
+                     //   name : 'CT',
+                     //   host : '192.168.0.1',
+                      //  port : '8903'
+                    //}
                 ];
             },
             add: function(scanner) {
