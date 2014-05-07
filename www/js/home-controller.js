@@ -20,6 +20,10 @@ angular.module('home.controllers', [])
 
         };
 
+        $scope.deleteScanner = function(scanner)  {
+
+        };
+
         $scope.newScanner = function() {
             $scope.addScannerView.show();
         };
