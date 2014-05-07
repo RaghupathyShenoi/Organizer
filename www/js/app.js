@@ -22,5 +22,10 @@ angular.module('organizer', ['ionic'])
                 templateUrl: "templates/home.html"
             })
 
+            .state('add-scanner', {
+                url: '/add-scanner',
+                templateUrl: "templates/add-scanner.html"
+            })
+
         $urlRouterProvider.otherwise('/home');
     })
