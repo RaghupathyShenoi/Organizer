@@ -17,7 +17,9 @@ angular.module('home.controllers', [])
             });
 
         $scope.createScanner = function(scanner)  {
-
+            
+            $scope.scanners.push(scanner);
+            $scope.closeNewScanner();
         };
 
         $scope.deleteScanner = function(scanner)  {
